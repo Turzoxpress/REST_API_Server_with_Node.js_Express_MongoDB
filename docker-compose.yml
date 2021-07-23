@@ -1,0 +1,16 @@
+version: '3'
+services: 
+    node:
+        container_name: node_tutorial_app
+        restart: always
+        build: .
+        ports: 
+            - "3000:3000"
+        links:
+            - mongo
+    
+    mongo:
+        container_name: mongo_tutorial_db
+        image: mongo
+        ports:
+            - "27017:27017"

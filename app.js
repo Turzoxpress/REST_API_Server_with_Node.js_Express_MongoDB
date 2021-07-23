@@ -18,8 +18,10 @@ var my_secret_key = 'sdfsdffss@#%$@#$SDFSDFSFSDF$#%@!EDFDHBFD*%^5445dfgdfgdt3453
 
 app.get('/',(req,res) =>{
 
+    res.json({ code: 200, 
+        data : "Your backend server based on Node and Express is ready to role!"});
 
-    res.send("Your backend server based on Node and Express is ready to role!");
+    
 
 });
 
