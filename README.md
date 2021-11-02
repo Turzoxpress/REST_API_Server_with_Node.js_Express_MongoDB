@@ -6,7 +6,7 @@
 <ul>
   <li>How to create a backend server from scratch </li>
   <li>How to create a REST API server with Node.js and Express framework</li>
-  <li>How to connect your REST API framework with MongoDB database to create a real life web application</li>
+  <li>How to connect your REST API server with MongoDB database to create a real life web application</li>
 <li>How to secure your web APIs from unwanted users</li>
 </ul>  
 <a href="https://turzo.org/2021/07/06/rest-api-with-node-express-mongodb-with-jwt-authentication-within-30-minutes/">See the completed tutorial here</a>
